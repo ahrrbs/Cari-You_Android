@@ -20,4 +20,19 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
+<<<<<<< HEAD
+=======
+    <include layout="@layout/fragment_board_free" />
+    <include layout="@layout/fragment_board_notice" />
+    <include layout="@layout/fragment_board_faq" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_margin="@dimen/fab_margin"
+        app:srcCompat="@android:drawable/ic_dialog_email" />
+
+>>>>>>> 08def217dfdd1abe713720a69147af82ef2ba92d
 </androidx.coordinatorlayout.widget.CoordinatorLayout>
