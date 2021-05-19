@@ -20,7 +20,9 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-    <include layout="@layout/content_board" />
+    <include layout="@layout/fragment_board_free" />
+    <include layout="@layout/fragment_board_notice" />
+    <include layout="@layout/fragment_board_faq" />
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
