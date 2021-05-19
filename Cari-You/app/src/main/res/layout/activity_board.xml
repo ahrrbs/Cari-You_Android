@@ -20,8 +20,8 @@
 
     </com.google.android.material.appbar.AppBarLayout>
 
-<<<<<<< HEAD
-=======
+
+
     <include layout="@layout/fragment_board_free" />
     <include layout="@layout/fragment_board_notice" />
     <include layout="@layout/fragment_board_faq" />
