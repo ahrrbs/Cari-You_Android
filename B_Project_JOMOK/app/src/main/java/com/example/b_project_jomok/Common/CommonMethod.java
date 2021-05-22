@@ -9,6 +9,8 @@ import android.net.ConnectivityManager;
 import android.net.NetworkInfo;
 import android.util.Log;
 
+import com.example.b_project_jomok.Dto.MemberDTO;
+
 import java.io.File;
 import java.io.IOException;
 
@@ -37,6 +39,7 @@ public class CommonMethod {
         }
 
     }
+
 
     // 이미지 로테이트 및 사이즈 변경
     public static Bitmap imageRotateAndResize(String path){ // state 1:insert, 2:update
@@ -116,8 +119,5 @@ public class CommonMethod {
         }
 
     }
-
-
-
 
 }

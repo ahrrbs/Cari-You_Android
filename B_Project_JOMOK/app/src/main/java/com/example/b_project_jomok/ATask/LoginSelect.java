@@ -57,7 +57,7 @@ public class LoginSelect extends AsyncTask<Void, Void, String> {
             builder.addTextBody("member_id", member_id, ContentType.create("Multipart/related", "UTF-8"));
             builder.addTextBody("password", password, ContentType.create("Multipart/related", "UTF-8"));
 
-            String postURL = ipConfig + "/aw/anLogin";
+            String postURL = ipConfig + "/app/anLogin";
             // 전송
             InputStream inputStream = null;
             httpClient = AndroidHttpClient.newInstance("Android");

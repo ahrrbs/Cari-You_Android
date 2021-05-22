@@ -57,10 +57,10 @@ public class MainActivity extends AppCompatActivity {
 
                 fragment = new BoardFragment();
             }else if(id == R.id.tab3){
-                fragment = new myPageFragment();
+                fragment = new PortFragment();
 
             } else {
-                fragment = new PortFragment();
+                fragment = new myPageFragment();
             }
 
             fragmentTransaction.add(R.id.content_layout, fragment, tag);

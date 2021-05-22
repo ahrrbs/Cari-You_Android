@@ -54,11 +54,11 @@ public class JoinActivity extends AppCompatActivity {
 
                 if(state.equals("1")){
                     Toast.makeText(JoinActivity.this, "삽입성공 !!!", Toast.LENGTH_SHORT).show();
-                    Log.d("main:joinact", "삽입성공 !!!");
+                    Log.d("main:joinact", "삽입성공 !!!" + member_id + password + name + phone + email);
                     finish();
                 }else{
                     Toast.makeText(JoinActivity.this, "삽입실패 !!!", Toast.LENGTH_SHORT).show();
-                    Log.d("main:joinact", "삽입실패 !!!");
+                    Log.d("main:joinact", "삽입실패 !!!" + member_id + password + name + phone + email);
                     finish();
                 }
             }
