@@ -5,7 +5,17 @@
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="18" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CAMERA" />
 
+<<<<<<< HEAD
+    <uses-feature
+        android:name="android.hardware.camera2"
+        android:required="true" />
+=======
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
         android:maxSdkVersion="18"/>
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
@@ -13,6 +23,7 @@
 
     <uses-feature android:name="android.hardware.camera2"
         android:required="true"/>
+>>>>>>> 2075114530f1659b43da26dca992e3ead3b1d0c8
 
     <queries>
 
@@ -23,13 +34,6 @@
             <category android:name="android.intent.category.BROWSABLE" />
 
             <data android:scheme="http" />
-        </intent>
-        <intent>
-            <action android:name="android.intent.action.VIEW" />
-
-            <category android:name="android.intent.category.BROWSABLE" />
-
-            <data android:scheme="https" />
         </intent>
 
         <!-- Camera -->
@@ -47,6 +51,7 @@
             <action android:name="android.media.browse.MediaBrowserService" />
         </intent>
     </queries>
+
 
     <application
         android:allowBackup="true"

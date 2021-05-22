@@ -21,10 +21,17 @@
     </com.google.android.material.appbar.AppBarLayout>
 
 
+<<<<<<< HEAD
+=======
 
 <!--    <include layout="@layout/fragment_board_free" />
     <include layout="@layout/fragment_board_notice" />
+<<<<<<< HEAD
     <include layout="@layout/fragment_board_faq" />-->
+=======
+    <include layout="@layout/fragment_board_faq" />
+>>>>>>> 2075114530f1659b43da26dca992e3ead3b1d0c8
+>>>>>>> f4ee3eb2818bccabb3abbf0b241908b864fac707
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
         android:id="@+id/fab"
