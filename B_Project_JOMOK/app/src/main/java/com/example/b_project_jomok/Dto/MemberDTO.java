@@ -3,6 +3,12 @@ package com.example.b_project_jomok.Dto;
 public class MemberDTO {
     String member_id, password, name, email, phone;
 
+    //마이페이지에 아이디 이름 가져오기
+    public MemberDTO(String member_id, String name) {
+        this.member_id = member_id;
+        this.name = name;
+    }
+
     // 로그인할때 비밀번호 없이 멤버변수 보낼때
     public MemberDTO(String member_id, String name, String email, String phone) {
         super();

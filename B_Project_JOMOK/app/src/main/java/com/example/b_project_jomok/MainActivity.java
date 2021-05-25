@@ -9,18 +9,21 @@ import androidx.fragment.app.FragmentTransaction;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
-import android.view.View;
 
 import com.google.android.material.bottomnavigation.BottomNavigationView;
 
 public class MainActivity extends AppCompatActivity {
 
     private BottomNavigationView mBottomNV;
+    Fragment fragment;
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
 
         mBottomNV = findViewById(R.id.nav_view);
         mBottomNV.setOnNavigationItemSelectedListener(new BottomNavigationView.OnNavigationItemSelectedListener() { //NavigationItemSelecte
@@ -33,6 +36,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
         mBottomNV.setSelectedItemId(R.id.tab1);
+
+
+
+
 
 
     }
@@ -61,6 +68,7 @@ public class MainActivity extends AppCompatActivity {
 
             } else {
                 fragment = new myPageFragment();
+
             }
 
             fragmentTransaction.add(R.id.content_layout, fragment, tag);
@@ -74,4 +82,6 @@ public class MainActivity extends AppCompatActivity {
 
 
     }
+
+
 }

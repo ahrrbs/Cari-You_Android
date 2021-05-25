@@ -42,6 +42,9 @@ public class LoginActivity extends AppCompatActivity {
         btnLogin = findViewById(R.id.btnLogin);
         btnJoin = findViewById(R.id.btnJoin);
 
+
+
+
         // 로그인 버튼
         btnLogin.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -94,6 +97,8 @@ public class LoginActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+
+
 
 
     }
